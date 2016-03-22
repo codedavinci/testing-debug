@@ -1,0 +1,33 @@
+{
+  "name": "testing-debug",
+  "version": "1.0.0",
+  "description": "Testing and debugging using mocha, nock, jasmin",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codedavinci/testing-debug.git"
+  },
+  "keywords": [
+    "mocha",
+    "nock",
+    "jasmin"
+  ],
+  "author": "Eddie Henrique",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codedavinci/testing-debug/issues"
+  },
+  "homepage": "https://github.com/codedavinci/testing-debug#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "nock": "^7.5.0",
+    "rewire": "^2.5.1",
+    "sinon": "^1.17.3"
+  }
+}
